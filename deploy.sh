@@ -1,3 +1,7 @@
+#!/bin/bash
+
+export AWS_PROFILE=personal
+
 aws s3 cp index.html  s3://guitarstone.com/index.html --acl public-read
 aws s3 cp favicon.ico  s3://guitarstone.com/favicon.ico --acl public-read
 aws s3 cp elements.html  s3://guitarstone.com/elements.html --acl public-read
