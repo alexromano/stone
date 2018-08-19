@@ -36,22 +36,10 @@
 		gtag('config', 'AW-792541095');
 		</script>
 
-		<!-- Event snippet for Form Clickthru conversion page
-		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-		<script>
-				function gtag_report_conversion(url) {
-				var callback = function () {
-					if (typeof(url) != 'undefined') {
-					window.location = url;
-					}
-				};
-				gtag('event', 'conversion', {
-					'send_to': 'AW-792541095/wa5dCP6ux4cBEKfv9PkC',
-					'event_callback': callback
-				});
-				return false;
-				}
-				</script>
+		<!-- Event snippet for Form Clickthru conversion page -->
+	<script>
+		gtag('event', 'conversion', {'send_to': 'AW-792541095/wa5dCP6ux4cBEKfv9PkC'});
+	  </script>
 
 		<title>Stone - Guitar String Monitor</title>
 		<meta charset="utf-8" />
