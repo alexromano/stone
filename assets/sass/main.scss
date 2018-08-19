@@ -594,7 +594,6 @@
 	}
 
 /* Image */
-
 	.image {
 		border-radius: 3px;
 		border: 0;
@@ -636,6 +635,16 @@
 				width: 100%;
 			}
 		}
+	}
+
+    #banner > .inner > .image {
+		max-width: 100%
+	}
+
+	#banner > .inner > .image > img {
+		object-fit: scale-down;
+		max-width: 100%;
+		height: auto;
 	}
 
 /* List */

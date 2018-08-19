@@ -1687,6 +1687,16 @@ input[type=radio] + label:before {
   width: 100%;
 }
 
+#banner > .inner > .image {
+  max-width: 100%;
+}
+
+#banner > .inner > .image > img {
+  object-fit: scale-down;
+  max-width: 100%;
+  height: auto;
+}
+
 /* List */
 ol {
   list-style: decimal;
